@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Title -->
+    <h1>Advance HTML Assignment</h1>
+
+    <!-- ordered list with roman numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="i">
+      <li>Ghana</li>
+      <li>Nigeria</li>
+      <li>Kenya</li>
+      <li>Togo</li>
+      <li>South Africa</li>
+    </ol>
+
+    <!-- external image from pexels -->
+    <h2>External Image from Pexels</h2>
+    <img
+      src="https://images.pexels.com/photos/31109871/pexels-photo-31109871/free-photo-of-cozy-fukuoka-street-scene-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="Cozy Fukuoko Street Scene at Night"
+      srcset=""
+    />
+
+    <!-- Table with data (name, address, mobile and emails)-->
+    <h2>Table with Data</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <td>Name</td>
+          <td>Address</td>
+          <td>Mobile</td>
+          <td>Emails</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Joe Fish</td>
+          <td>123 Fish street, Sea County</td>
+          <td>+12122336678</td>
+          <td>joethefish@email.com</td>
+        </tr>
+        <tr>
+          <td>Mark Wood</td>
+          <td>Lakeside Avenue, Wood County</td>
+          <td>+5122388321</td>
+          <td>mawood@email.com</td>
+        </tr>
+        <tr>
+          <td>Rose Pun</td>
+          <td>10th Street, Evergreen Park</td>
+          <td>+6667764408</td>
+          <td>punrose@email.com</td>
+        </tr>
+        <tr>
+          <td>Berry Wolf</td>
+          <td>No. 3 wood street, Woodland Arena</td>
+          <td>+1786532112</td>
+          <td>bewolf@email.com</td>
+        </tr>
+        <tr>
+          <td>Ben Turnner</td>
+          <td>123 Fish street, Sea County</td>
+          <td>+12188983483</td>
+          <td>turnandburn@email.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#">
+      <label for="name">Full Name: </label>
+      <input type="text" name="name" id="name" placeholder="Joe Doe" required />
+      <br />
+      <br />
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        value="johndoe@email.com"
+        placeholder="johndoe@email.com"
+        required
+      />
+      <br />
+      <br />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        value="password"
+        placeholder="Enter Password"
+        required
+      />
+      <br />
+      <br />
+      <label for="dob">Date of Birth: </label>
+      <input type="date" name="dob" id="dob" value="2025-01-01" required />
+      <br />
+      <br />
+      <label for="gender">Gender: </label>
+      <input type="radio" name="gender" id="male" value="male" />Male
+      <input type="radio" name="gender" id="female" value="female" />Female
+      <br />
+      <br />
+      <!-- Preferred Languages -->
+      <label for="language">Select Languages You Speak: </label>
+      <input
+        type="checkbox"
+        name="language"
+        id="english"
+        value="english"
+      />English
+      <input
+        type="checkbox"
+        name="language"
+        id="spanish"
+        value="spanish"
+      />Spanish
+      <input type="checkbox" name="language" id="french" value="french" />French
+      <input
+        type="checkbox"
+        name="language"
+        id="portuguese"
+        value="portuguese"
+      />Portuguese
+      <input
+        type="checkbox"
+        name="language"
+        id="italian"
+        value="italian"
+      />Italian
+      <br />
+      <br />
+
+      <!-- Select Country -->
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="default">--Select Your Country--</option>
+        <option value="ghana">Ghana</option>
+        <option value="nigeria">Nigeria</option>
+        <option value="kenya">Kenya</option>
+        <option value="togo">Togo</option>
+        <option value="rwanda">Rwanda</option>
+        <option value="senegal">Senegal</option>
+        <option value="south-africa">South Africa</option>
+        <option value="namibia">Namibia</option>
+        <option value="ethiopia">Ethiopia</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
